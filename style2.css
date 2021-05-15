@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+header {
+    height:70px;  
+    
+}
+header h1 {
+    display: inline-block;
+    float: left;
+    padding: 15px 24px;
+    text-transform: uppercase;
+    
+}
+header h1 a {
+    color:#c33764 ;
+}
+header h1 a:hover{
+    color:#1d2671;
+}
+header ul {
+    border: 1px solid;
+    float: right;
+}
+header u1 li {
+    
+    padding: 24px;
+    display: inline-block;
+    float: right;
+}
+header ul li a {
+    color: #735401;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.container::after{
+    content: '';
+    
+    clear: both;
+}
+/*--Home--*/
+.banner {
+    background : linear-gradient(120deg, #c33764, #1d2671);
+    padding: 130px 0; 
+}
+section{
+    padding: 50px 0;
+}
+.banner img {
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px #ddd;
+    margin-bottom: 10px;
+}
+.banner-left{
+    padding-left: 24px;
+}
+.banner h2{
+    margin-bottom: 10px;
+    color: #ddd;
+}
+.banner p{
+    font-size: 18px;
+    color: #ddd;
+}
+.banner span {
+    color:antiquewhite;
+}
+section h3{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-left: 20px;
+}
+.column p{
+    display: inline-block;
+    padding-left: 250px;
+}
+.column img{
+    width: 40px;
+    padding-left: 100px;
+}
+.bannerketiga{
+    background-image: url(../img/lower-manhattan-2-19-2014_full-hd-1080p.jpg);
+    padding: 210px 0; 
+}
